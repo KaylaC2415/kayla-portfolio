@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="43" height="142" viewBox="0 0 43 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="House">
+<path d="M1.48619e-05 16.3906L21.5 0L43 16.3906L43 142H0L1.48619e-05 16.3906Z" fill="#FF7D65"/>
+<mask id="stroke0_0_71" fill="white">
+<path d="M1.48619e-05 16.3906L21.5 0L43 16.3906L43 142H0L1.48619e-05 16.3906Z"/>
+</mask>
+<path d="M1.48619e-05 16.3906L21.5 0L43 16.3906L43 142H0L1.48619e-05 16.3906Z" stroke-width="4" stroke-linejoin="round" stroke="#4E0601" mask="url(#stroke0_0_71)"/>
+</g>
+</svg>

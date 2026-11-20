@@ -1,0 +1,67 @@
+PASS All nine desktop projects are present
+PASS All artwork images loaded
+PASS No document overflow
+PASS First frame matches Figma x/y/size
+PASS Correct Figma room background
+PASS Four category links
+PASS Back link keeps origin mode
+PASS Native SVG assets loaded
+PASS GIFs have paused poster canvases
+PASS Motions category navigation works
+PASS Category updates URL
+PASS Header remains fixed
+PASS Image viewer opens correct project
+PASS Image viewer closes
+PASS Game viewer offers animation control
+PASS Game animation can play
+PASS Game animation can pause
+PASS Visitor Gallery pending-content dialog works
+PASS Return to first category
+
+PASS All nine desktop projects are present
+PASS All artwork images loaded
+PASS No document overflow
+PASS First frame matches Figma x/y/size
+PASS Correct Figma room background
+PASS Four category links
+PASS Back link keeps origin mode
+PASS Native SVG assets loaded
+PASS Mobile categories stay above artworks
+PASS Mobile current category visible
+PASS Mobile nav scrolls to all four categories
+PASS GIFs have paused poster canvases
+PASS Motions category navigation works
+PASS Category updates URL
+PASS Header remains fixed
+PASS Image viewer opens correct project
+PASS Image viewer closes
+PASS Game viewer offers animation control
+PASS Game animation can play
+PASS Game animation can pause
+PASS Visitor Gallery pending-content dialog works
+PASS Return to first category
+
+PASS product desktop: Playground is a native link
+PASS games desktop: Playground is a native link
+PASS product mobile: Playground is a native link
+PASS games mobile: Playground is a native link
+PASS product desktop: Both modes reach the same Playground
+PASS product desktop: Origin mode passed correctly
+PASS product desktop: Return token retained
+PASS games desktop: Both modes reach the same Playground
+PASS games desktop: Origin mode passed correctly
+PASS games desktop: Return token retained
+PASS product mobile: Both modes reach the same Playground
+PASS product mobile: Origin mode passed correctly
+PASS product mobile: Return token retained
+PASS games mobile: Both modes reach the same Playground
+PASS games mobile: Origin mode passed correctly
+PASS games mobile: Return token retained
+PASS product desktop: Correct gallery mode restored
+PASS product desktop: Original gallery position restored
+PASS games desktop: Correct gallery mode restored
+PASS games desktop: Original gallery position restored
+PASS product mobile: Correct gallery mode restored
+PASS product mobile: Original gallery position restored
+PASS games mobile: Correct gallery mode restored
+PASS games mobile: Original gallery position restored

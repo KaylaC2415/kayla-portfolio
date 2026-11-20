@@ -1,0 +1,605 @@
+{
+  "features": [
+    {
+      "images": [
+        "https://framerusercontent.com/images/SpDKDwDQyx9vPwo0L93Ps5I76A.png?width=900&height=1840"
+      ],
+      "name": "1",
+      "text": [
+        "GOAL",
+        "Create a strong first impression and effortlessly guide both new and returning players.",
+        "Solution",
+        "Bold, eye-catching imagery with clear, intuitive buttons and concise text."
+      ],
+      "title": "Landing"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/Ey4h7SbB3hhZkxfMTh8ZXaXn9k.png?width=900&height=1840",
+        "https://framerusercontent.com/images/zOSCyYruoVSv3Pj9P2fn7vSc.png?width=900&height=1840"
+      ],
+      "name": "2",
+      "text": [
+        "GOAL",
+        "Motivate players to progress through the tutorial without losing interest.",
+        "Solution",
+        "Reward players with collectible incentives and visually satisfying \"completed\" badges for a sense of achievement."
+      ],
+      "title": "Tutorial Progression"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/25iRI82ECWEcbbw7kFCVI6DhKM.png?width=900&height=1840",
+        "https://framerusercontent.com/images/Io12aeeBjIrNIj3D5qZk1tL2nY.png?width=900&height=1840",
+        "https://framerusercontent.com/images/U9kEhBMMUwDO5f4kWvf7cjxvA.png?width=900&height=1840"
+      ],
+      "name": "3",
+      "text": [
+        "GOAL",
+        "Make signing up engaging and enjoyable.",
+        "Solution",
+        "Let players choose their starter bundle and avatar first for excitement, followed by the sign-up form."
+      ],
+      "title": "Account Creation"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/e8HLmbPluFZOcQktLfYQXssQ8.png?width=900&height=1840",
+        "https://framerusercontent.com/images/OZ7yFmzMslCBcgzmozqA3TSTOqg.png?width=900&height=1840"
+      ],
+      "name": "4",
+      "text": [
+        "GOAL",
+        "Showcase player info, enable seamless navigation, and maintain visual excitement.",
+        "Solution",
+        "Use clean visual sections for organization and dynamic slides for announcements and updates."
+      ],
+      "title": "Home / Main"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/ECZI3VHcSzXZEKBHZiBEePtvaY.png?width=900&height=1840"
+      ],
+      "name": "5",
+      "text": [
+        "GOAL",
+        "Make selecting an AI opponent quick and intuitive.",
+        "Solution",
+        "Use distinct colors and highlighted features to differentiate each AI opponent."
+      ],
+      "title": "AI Practice Mode"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/ZOvSeujYzrIXS4zmhOByav2XfZY.png?width=900&height=1840"
+      ],
+      "name": "6",
+      "text": [
+        "GOAL",
+        "Make selecting an AI opponent quick and intuitive.",
+        "Solution",
+        "Use distinct colors and highlighted features to differentiate each AI opponent."
+      ],
+      "title": "Casual Mode - Battle Lobby"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/kERxk9kKnVeekFkmycYwxSi7B8.png?width=900&height=1840",
+        "https://framerusercontent.com/images/Wd8AKSi3mDO6J2TCVcLRUykRPMw.png?width=900&height=1840"
+      ],
+      "name": "7",
+      "text": [
+        "GOAL",
+        "Provide a streamlined experience for managing friends and adding new ones.",
+        "Solution",
+        "Organize features with tabs, include sorting and search options, and encourage inviting friends with rewards."
+      ],
+      "title": "Socials"
+    },
+    {
+      "images": [
+        "https://framerusercontent.com/images/QyFhCYZE6pj8XvpRW9cFtzOxlVc.png?scale-down-to=2048&width=1350&height=2760"
+      ],
+      "name": "8",
+      "text": [
+        "GOAL",
+        "Ensure smooth and intuitive navigation during battles on a mobile screen.",
+        "Solution",
+        "Display only essential information and include a hint button for additional guidance."
+      ],
+      "title": "Battle"
+    }
+  ],
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "Five Mics (Mobile TCG)",
+          "type": "h1"
+        },
+        {
+          "text": "A mobile trading card game bringing hip-hop culture into play",
+          "type": "p"
+        },
+        {
+          "text": "Designed and implemented the UI/UX for a hip-hop-inspired mobile trading card game, redesigning onboarding, building social features, and creating core gameplay interfaces with a bold visual language, bringing interactions to life in Unity with a focus on clarity and player engagement.",
+          "type": "p"
+        },
+        {
+          "text": "Team",
+          "type": "p"
+        },
+        {
+          "text": "Five Mics Studios",
+          "type": "p"
+        },
+        {
+          "text": "MY ROLE",
+          "type": "p"
+        },
+        {
+          "text": "UI/UX Designer, Technical Implementation",
+          "type": "p"
+        },
+        {
+          "text": "TOOLS",
+          "type": "p"
+        },
+        {
+          "text": "Figma, Unity, C#, Adobe Photoshop, Adobe Illustrator",
+          "type": "p"
+        },
+        {
+          "text": "Timeline",
+          "type": "p"
+        },
+        {
+          "text": "Aug 2023 - Aug 2024",
+          "type": "p"
+        }
+      ],
+      "name": "Header"
+    },
+    {
+      "blocks": [
+        {
+          "text": "01",
+          "type": "h2"
+        },
+        {
+          "text": "Project Objectives",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "h2"
+        },
+        {
+          "text": "Adapt desktop gameplay for mobile with a seamless interface.",
+          "type": "p"
+        },
+        {
+          "text": "Enhance UI accessibility and visual appeal.",
+          "type": "p"
+        },
+        {
+          "text": "Design intuitive onboarding for new players.",
+          "type": "p"
+        },
+        {
+          "text": "Strengthen social features to boost player interaction.",
+          "type": "p"
+        },
+        {
+          "text": "CHALLENGE",
+          "type": "h2"
+        },
+        {
+          "text": "Design a clear and intuitive interface to guide players while addressing the visual presentation of complex interactions.",
+          "type": "p"
+        },
+        {
+          "text": "RESPONSIBILITIES",
+          "type": "h2"
+        },
+        {
+          "text": "UI/UX Design - Transforming physical to digital",
+          "type": "p"
+        },
+        {
+          "text": "Visual Direction - Setting visual style and vibe",
+          "type": "p"
+        },
+        {
+          "text": "Implementation - Hand-off with Unity UI and interactions built by C#",
+          "type": "p"
+        }
+      ],
+      "name": "Project"
+    },
+    {
+      "blocks": [
+        {
+          "text": "02",
+          "type": "h2"
+        },
+        {
+          "text": "Visual Direction",
+          "type": "h1"
+        },
+        {
+          "text": "Starting with visual keywords from the founder, I explored mood boards and narrowed the direction to a balance between cyberpunk futurism and graffiti-inspired street culture. Referencing games like Marvel Snap, I extracted a focused palette of bold, saturated colors grounded by dark neutrals to capture the energy of hip-hop while keeping the UI clear and cohesive.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/qIqRWOP887U7ss6igBVJVoE0.png?width=2000&height=1125",
+          "type": "img"
+        },
+        {
+          "text": "Mood Board",
+          "type": "p"
+        },
+        {
+          "text": "Color Palette",
+          "type": "p"
+        }
+      ],
+      "name": "Visual Style"
+    },
+    {
+      "blocks": [
+        {
+          "text": "03",
+          "type": "h2"
+        },
+        {
+          "text": "User Flow",
+          "type": "h1"
+        },
+        {
+          "text": "*Only publicly released screens are shown to ensure confidentiality.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/V7X9fAl00IMKJKnkqVd8Qx6Lw.png?width=3169&height=3467",
+          "type": "img"
+        }
+      ],
+      "name": "User Flow"
+    },
+    {
+      "blocks": [
+        {
+          "text": "04",
+          "type": "h2"
+        },
+        {
+          "text": "Hi-fi User Interface",
+          "type": "h1"
+        },
+        {
+          "src": "https://framerusercontent.com/images/SpDKDwDQyx9vPwo0L93Ps5I76A.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "Landing",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Create a strong first impression and effortlessly guide both new and returning players.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Bold, eye-catching imagery with clear, intuitive buttons and concise text.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/Ey4h7SbB3hhZkxfMTh8ZXaXn9k.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "src": "https://framerusercontent.com/images/zOSCyYruoVSv3Pj9P2fn7vSc.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "Tutorial Progression",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Motivate players to progress through the tutorial without losing interest.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Reward players with collectible incentives and visually satisfying \"completed\" badges for a sense of achievement.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/25iRI82ECWEcbbw7kFCVI6DhKM.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "src": "https://framerusercontent.com/images/Io12aeeBjIrNIj3D5qZk1tL2nY.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "src": "https://framerusercontent.com/images/U9kEhBMMUwDO5f4kWvf7cjxvA.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "Account Creation",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Make signing up engaging and enjoyable.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Let players choose their starter bundle and avatar first for excitement, followed by the sign-up form.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/e8HLmbPluFZOcQktLfYQXssQ8.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "src": "https://framerusercontent.com/images/OZ7yFmzMslCBcgzmozqA3TSTOqg.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "Home / Main",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Showcase player info, enable seamless navigation, and maintain visual excitement.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Use clean visual sections for organization and dynamic slides for announcements and updates.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/ECZI3VHcSzXZEKBHZiBEePtvaY.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "AI Practice Mode",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Make selecting an AI opponent quick and intuitive.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Use distinct colors and highlighted features to differentiate each AI opponent.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/ZOvSeujYzrIXS4zmhOByav2XfZY.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "Casual Mode - Battle Lobby",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Make selecting an AI opponent quick and intuitive.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Use distinct colors and highlighted features to differentiate each AI opponent.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/kERxk9kKnVeekFkmycYwxSi7B8.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "src": "https://framerusercontent.com/images/Wd8AKSi3mDO6J2TCVcLRUykRPMw.png?width=900&height=1840",
+          "type": "img"
+        },
+        {
+          "text": "Socials",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Provide a streamlined experience for managing friends and adding new ones.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Organize features with tabs, include sorting and search options, and encourage inviting friends with rewards.",
+          "type": "p"
+        },
+        {
+          "src": "https://framerusercontent.com/images/QyFhCYZE6pj8XvpRW9cFtzOxlVc.png?scale-down-to=2048&width=1350&height=2760",
+          "type": "img"
+        },
+        {
+          "text": "Battle",
+          "type": "h1"
+        },
+        {
+          "text": "GOAL",
+          "type": "p"
+        },
+        {
+          "text": "Ensure smooth and intuitive navigation during battles on a mobile screen.",
+          "type": "p"
+        },
+        {
+          "text": "Solution",
+          "type": "p"
+        },
+        {
+          "text": "Display only essential information and include a hint button for additional guidance.",
+          "type": "p"
+        }
+      ],
+      "name": "Hi-fi"
+    },
+    {
+      "blocks": [
+        {
+          "text": "05",
+          "type": "h2"
+        },
+        {
+          "text": "Unity Implementation",
+          "type": "h1"
+        },
+        {
+          "text": "After iterating on the UI with the team, I implemented the responsive interfaces in Unity, including button animations, scene transitions, and drag-and-drop interactions. I also created custom shaders for holographic card upgrades to enhance visual feedback and reinforce the game’s visual identity.",
+          "type": "p"
+        },
+        {
+          "src": "https://player.vimeo.com/video/1043050032?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963",
+          "type": "iframe"
+        },
+        {
+          "text": "Button Animation",
+          "type": "p"
+        },
+        {
+          "src": "https://player.vimeo.com/video/1043049606?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963",
+          "type": "iframe"
+        },
+        {
+          "text": "UI Implementation",
+          "type": "p"
+        },
+        {
+          "src": "https://player.vimeo.com/video/1043049751?muted=1&autoplay=1&autopause=0&loop=1&app_id=122963",
+          "type": "iframe"
+        },
+        {
+          "text": "3D Holographic Card Design (Shader)",
+          "type": "p"
+        }
+      ],
+      "name": "Unity"
+    },
+    {
+      "blocks": [
+        {
+          "text": "06",
+          "type": "h2"
+        },
+        {
+          "text": "Result & Feedback",
+          "type": "h1"
+        },
+        {
+          "text": "30%",
+          "type": "h1"
+        },
+        {
+          "text": "Higher Tutorial Completion",
+          "type": "p"
+        },
+        {
+          "text": "20%",
+          "type": "h1"
+        },
+        {
+          "text": "Increase in Returning Users",
+          "type": "p"
+        },
+        {
+          "text": "Players praised the eye-catching visuals and seamless interactions, boosting overall user satisfaction. The narrative-driven tutorial tripled completion rates and reduced player drop-off during onboarding.",
+          "type": "p"
+        },
+        {
+          "text": "Strong visual cohesion left a lasting impression, making the interface intuitive and memorable. During the demo launch window, we gathered insights from surveys, playtests, and analytics to release 3 targeted iterations. These updates resolved key pain points, enhanced usability, and increased returning user rates by 20%. ",
+          "type": "p"
+        },
+        {
+          "text": "Each change reflected our commitment to delivering a polished, player-first experience.",
+          "type": "p"
+        }
+      ],
+      "name": "Results"
+    }
+  ],
+  "source": "https://kaylayc.framer.website/five-mics-mobile",
+  "videos": [
+    {
+      "context": "",
+      "src": "https://player.vimeo.com/video/1043010599?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963"
+    },
+    {
+      "context": "",
+      "src": "https://player.vimeo.com/video/1043011187?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963"
+    },
+    {
+      "context": "",
+      "src": "https://player.vimeo.com/video/1043011140?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963"
+    },
+    {
+      "context": "",
+      "src": "https://player.vimeo.com/video/1043050032?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963"
+    },
+    {
+      "context": "",
+      "src": "https://player.vimeo.com/video/1043049606?muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963"
+    },
+    {
+      "context": "",
+      "src": "https://player.vimeo.com/video/1043049751?muted=1&autoplay=1&autopause=0&loop=1&app_id=122963"
+    }
+  ]
+}

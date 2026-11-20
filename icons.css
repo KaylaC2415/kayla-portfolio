@@ -1,0 +1,15 @@
+.ui-icon{display:inline-block;flex:none;width:1em;height:1em;background:currentColor;mask:var(--icon) center / contain no-repeat;-webkit-mask:var(--icon) center / contain no-repeat;vertical-align:middle}
+.icon-arrow-left{--icon:url('assets/icons/arrow-left-bold.svg')}.icon-arrow-right{--icon:url('assets/icons/arrow-right-bold.svg')}.icon-arrow-up-right{--icon:url('assets/icons/arrow-up-right-bold.svg')}.icon-check{--icon:url('assets/icons/check-bold.svg')}.icon-x{--icon:url('assets/icons/x-bold.svg')}
+.navigation-icon{display:flex;align-items:center;justify-content:center;font-size:1em;width:1em;height:1em}
+.visitor-arrow>.ui-icon{display:block;width:100%;height:100%}
+.lightbox-close,.dialog-close{display:grid;place-items:center}
+.lightbox-close>.ui-icon,.dialog-close>.ui-icon{font-size:24px}
+.focus-marker>.ui-icon{display:block;width:30px;height:30px}
+.playground-arrow>.ui-icon{display:block;width:92px;height:40px;color:#86d3e3}
+
+.icon-asterisk{--icon:url('assets/icons/asterisk-bold.svg')}
+
+.icon-play{--icon:url('assets/icons/play-bold.svg')}
+
+.lightbox-close{padding:0;display:grid;place-items:center}
+.lightbox-close>.ui-icon{display:block;flex:none;margin:0;position:static;transform:none;width:24px;height:24px}

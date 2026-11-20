@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cromo-ev",
+    "title": "Cromo EV Thailand Website",
+    "meta": "E-Commerce Website, 2026",
+    "category": "ui-ux",
+    "src": "assets/playground/desktop-imgCoverImage1.png",
+    "width": 2480,
+    "height": 1395,
+    "animated": false
+  },
+  {
+    "id": "native",
+    "title": "Native",
+    "meta": "Tourism Website, 2026",
+    "category": "ui-ux",
+    "src": "assets/playground/desktop-imgCoverImage2.png",
+    "width": 2480,
+    "height": 1395,
+    "animated": false
+  },
+  {
+    "id": "plant-shop",
+    "title": "Plant Shop Checkout UI",
+    "meta": "Mobile UI, 2023",
+    "category": "ui-ux",
+    "src": "assets/playground/desktop-imgCoverImage3.png",
+    "width": 2480,
+    "height": 1395,
+    "animated": false
+  },
+  {
+    "id": "papaya-comedy",
+    "title": "Papaya Comedy",
+    "meta": "Visual Campaigns, Present",
+    "category": "visuals",
+    "src": "assets/playground/desktop-imgCoverImage7.png",
+    "width": 2480,
+    "height": 1395,
+    "animated": false
+  },
+  {
+    "id": "she-built-this",
+    "title": "She Built This: Game Jam",
+    "meta": "Event Key Art, 2026",
+    "category": "visuals",
+    "src": "assets/playground/desktop-imgCoverImage8.png",
+    "width": 2000,
+    "height": 1300,
+    "animated": false
+  },
+  {
+    "id": "swim-away",
+    "title": "Swim Away",
+    "meta": "Game Prototype, 2022",
+    "category": "games",
+    "src": "assets/playground/desktop-imgCoverImage4.gif",
+    "width": 1592,
+    "height": 1576,
+    "animated": true
+  },
+  {
+    "id": "the-note",
+    "title": "The Note",
+    "meta": "Puzzle Game, 2022",
+    "category": "games",
+    "src": "assets/playground/desktop-imgCoverImage5.gif",
+    "width": 2394,
+    "height": 1496,
+    "animated": true
+  },
+  {
+    "id": "way-out",
+    "title": "Way Out",
+    "meta": "Storytelling Game, 2022",
+    "category": "games",
+    "src": "assets/playground/desktop-imgCoverImage6.gif",
+    "width": 2092,
+    "height": 1400,
+    "animated": true
+  },
+  {
+    "id": "five-mics-content",
+    "title": "Five Mics Content Design",
+    "meta": "Product Marketing Assets, 2023-2025",
+    "category": "motions",
+    "src": "assets/playground/desktop-imgCoverImage9.png",
+    "width": 2480,
+    "height": 1395,
+    "animated": false
+  }
+]

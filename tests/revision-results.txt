@@ -1,0 +1,66 @@
+PASS product mobile: mode matches URL
+PASS product mobile: no document overflow
+PASS product mobile: header has counter and Visitor Gallery
+PASS product mobile: header controls do not overlap
+PASS product mobile: correct header inset
+PASS product mobile: all artwork loaded
+PASS product mobile: footer matches reference
+PASS product mobile: first project matches Figma x/width
+PASS product mobile: name sits above footer
+PASS product mobile: index sits above footer
+PASS product mobile: correct mobile switch source
+PASS product mobile: Visitor Gallery opens pending-content dialog
+PASS product mobile: Visitor Gallery closes
+PASS product mobile: index follows project count
+PASS product mobile: header stays fixed while scrolling
+PASS product mobile: no vertical displacement
+PASS product mobile: switch changes gallery
+PASS product mobile: switch returns to starting gallery
+PASS product desktop: mode matches URL
+PASS product desktop: no document overflow
+PASS product desktop: header has counter and Visitor Gallery
+PASS product desktop: header controls do not overlap
+PASS product desktop: correct header inset
+PASS product desktop: all artwork loaded
+PASS product desktop: footer matches reference
+PASS product desktop: first project matches Figma x/width
+PASS product desktop: Visitor Gallery opens pending-content dialog
+PASS product desktop: Visitor Gallery closes
+PASS product desktop: index follows project count
+PASS product desktop: header stays fixed while scrolling
+PASS product desktop: no vertical displacement
+PASS product desktop: switch changes gallery
+PASS product desktop: switch returns to starting gallery
+PASS games desktop: mode matches URL
+PASS games desktop: no document overflow
+PASS games desktop: header has counter and Visitor Gallery
+PASS games desktop: header controls do not overlap
+PASS games desktop: correct header inset
+PASS games desktop: all artwork loaded
+PASS games desktop: footer matches reference
+PASS games desktop: first project matches Figma x/width
+PASS games desktop: Visitor Gallery opens pending-content dialog
+PASS games desktop: Visitor Gallery closes
+PASS games mobile: mode matches URL
+PASS games mobile: no document overflow
+PASS games mobile: header has counter and Visitor Gallery
+PASS games mobile: header controls do not overlap
+PASS games mobile: correct header inset
+PASS games mobile: all artwork loaded
+PASS games mobile: footer matches reference
+PASS games mobile: first project matches Figma x/width
+PASS games mobile: name sits above footer
+PASS games mobile: index sits above footer
+PASS games mobile: correct mobile switch source
+PASS games mobile: Visitor Gallery opens pending-content dialog
+PASS games mobile: Visitor Gallery closes
+PASS games desktop: index follows project count
+PASS games desktop: header stays fixed while scrolling
+PASS games desktop: no vertical displacement
+PASS games desktop: switch changes gallery
+PASS games desktop: switch returns to starting gallery
+PASS games mobile: index follows project count
+PASS games mobile: header stays fixed while scrolling
+PASS games mobile: no vertical displacement
+PASS games mobile: switch changes gallery
+PASS games mobile: switch returns to starting gallery

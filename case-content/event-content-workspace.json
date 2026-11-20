@@ -1,0 +1,424 @@
+{
+  "source": "https://kaylachendesign.framer.website/event-content-workspace",
+  "theme": "product",
+  "sections": [
+    {
+      "name": "Hero Image",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/ABuzojxptFzjvn0BNzonqMHbQU.png",
+          "width": "3720",
+          "height": "2093"
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Event Content Workspace"
+        },
+        {
+          "type": "p",
+          "text": "Connecting participant submissions, content production, and publishing in one streamlined event workflow."
+        },
+        {
+          "type": "p",
+          "text": "A B2B content operations workspace for event teams to collect participant information, coordinate promotional content, and keep campaigns on schedule. Designed end-to-end from product strategy and UX/UI to an AI-assisted functional prototype."
+        },
+        {
+          "type": "p",
+          "text": "MY ROLE"
+        },
+        {
+          "type": "p",
+          "text": "Product Designer"
+        },
+        {
+          "type": "p",
+          "text": "TOOLS"
+        },
+        {
+          "type": "p",
+          "text": "Figma, Claude, Codex"
+        },
+        {
+          "type": "p",
+          "text": "Timeline"
+        },
+        {
+          "type": "p",
+          "text": "1 week, Oct 2026"
+        }
+      ]
+    },
+    {
+      "name": "Gallery",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/Q9DW8pp9B1K6chtvlrafKNeBAk.png",
+          "width": "3024",
+          "height": "1964"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/tUFW9s6T0MC51jV8q0jz8w4oFmE.png",
+          "width": "3024",
+          "height": "1964"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/SlKB4LlrT6RdhWsj64OnCNFMw.png",
+          "width": "3024",
+          "height": "1964"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/5Mej7lcx9uCeWrQItLP3BWERie8.png",
+          "width": "3024",
+          "height": "1964"
+        }
+      ]
+    },
+    {
+      "name": "Problem",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01"
+        },
+        {
+          "type": "h1",
+          "text": "Problem"
+        },
+        {
+          "type": "p",
+          "text": "Event teams often collect speaker and exhibitor information separately from the content workflows that depend on it. Bios, headshots, project assets, promotional graphics, and publishing schedules can become scattered across forms, spreadsheets, storage, and project management tools."
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/JplTH6CoOZUYRak496zoRp9KHk4.png",
+          "width": "1300",
+          "height": "1628"
+        },
+        {
+          "type": "h2",
+          "text": "How might we connect participant submissions directly to the content production workflow they enable?"
+        }
+      ]
+    },
+    {
+      "name": "Product Focus",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "02"
+        },
+        {
+          "type": "h1",
+          "text": "Product Focus"
+        },
+        {
+          "type": "p",
+          "text": "I initially explored a broader event-management workspace. Competitive analysis of Airtable, Asana, and monday.com showed that scheduling, task management, and event planning were already well-served."
+        },
+        {
+          "type": "p",
+          "text": "Broad Event Management"
+        },
+        {
+          "type": "li",
+          "text": "Venue"
+        },
+        {
+          "type": "li",
+          "text": "Budget"
+        },
+        {
+          "type": "li",
+          "text": "Tasks"
+        },
+        {
+          "type": "li",
+          "text": "Attendees"
+        },
+        {
+          "type": "li",
+          "text": "Speakers"
+        },
+        {
+          "type": "li",
+          "text": "Content"
+        },
+        {
+          "type": "li",
+          "text": "Partners"
+        },
+        {
+          "type": "li",
+          "text": "Meetings"
+        },
+        {
+          "type": "p",
+          "text": "Broad Event Management"
+        },
+        {
+          "type": "li",
+          "text": "Participant collection"
+        },
+        {
+          "type": "li",
+          "text": "Asset readiness"
+        },
+        {
+          "type": "li",
+          "text": "Content production"
+        },
+        {
+          "type": "li",
+          "text": "Designer handoff"
+        },
+        {
+          "type": "p",
+          "text": "Rather than designing another general-purpose event planning tool, I narrowed the product to the workflow between participant onboarding and promotional content publishing."
+        }
+      ]
+    },
+    {
+      "name": "IA",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "03"
+        },
+        {
+          "type": "h1",
+          "text": "Designing the IA"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/QSaNrhpzeSdH92sUHQ5F14OOvjM.png",
+          "width": "6744",
+          "height": "1988"
+        },
+        {
+          "type": "p",
+          "text": "Instead of duplicating tasks across participant and content views, I modeled source readiness separately from production status."
+        }
+      ]
+    },
+    {
+      "name": "Core Workflows",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "04"
+        },
+        {
+          "type": "h1",
+          "text": "Core Workflow"
+        },
+        {
+          "type": "h2",
+          "text": "Flow A: Collect once, use downstream"
+        },
+        {
+          "type": "p",
+          "text": "Speaker invited"
+        },
+        {
+          "type": "p",
+          "text": "Information submitted"
+        },
+        {
+          "type": "p",
+          "text": "Organizer reviews"
+        },
+        {
+          "type": "p",
+          "text": "Source becomes ready"
+        },
+        {
+          "type": "p",
+          "text": "Related content can move forward"
+        },
+        {
+          "type": "video",
+          "src": "https://framerusercontent.com/assets/MetfsNNpbo5srTV0PdTYd0Invho.mp4",
+          "poster": "https://framerusercontent.com/images/Dbh7eFHYB6JKFnMdFfY5ANX89s.png"
+        },
+        {
+          "type": "p",
+          "text": "Participant readiness is contextualized by downstream impact. Instead of simply showing “missing bio,” the system shows which content the missing information is blocking."
+        },
+        {
+          "type": "h2",
+          "text": "Flow B: Turning submissions into designer-ready handoff"
+        },
+        {
+          "type": "p",
+          "text": "Content Detail"
+        },
+        {
+          "type": "p",
+          "text": "Prepare for Design"
+        },
+        {
+          "type": "p",
+          "text": "Handoff Summary"
+        },
+        {
+          "type": "p",
+          "text": "Send to Designer"
+        },
+        {
+          "type": "video",
+          "src": "https://framerusercontent.com/assets/c1W4wfH3EgnnlxAiH7XaqL1K6HE.mp4",
+          "poster": "https://framerusercontent.com/images/eptKsp8UerkXV8hw9sfiysLxXn4.png"
+        },
+        {
+          "type": "p",
+          "text": "Approved participant and event information becomes reusable source material. Organizers select what the content needs, and the workspace generates a structured handoff for the designer."
+        }
+      ]
+    },
+    {
+      "name": "Operational Clarity",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "05"
+        },
+        {
+          "type": "h1",
+          "text": "Designing for Operational Clarity"
+        },
+        {
+          "type": "li",
+          "text": "Content: One Model, three views"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/aFtCahxQv32mw7tvDhIuXtpxU.png",
+          "width": "3024",
+          "height": "1964"
+        },
+        {
+          "type": "p",
+          "text": "Library"
+        },
+        {
+          "type": "p",
+          "text": "Organizes content by event, session, and showcase while exposing source readiness."
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/SlKB4LlrT6RdhWsj64OnCNFMw.png",
+          "width": "3024",
+          "height": "1964"
+        },
+        {
+          "type": "p",
+          "text": "Pipeline"
+        },
+        {
+          "type": "p",
+          "text": "Tracks production from To Do → In Progress → Needs Review → Approved."
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/5Mej7lcx9uCeWrQItLP3BWERie8.png",
+          "width": "3024",
+          "height": "1964"
+        },
+        {
+          "type": "p",
+          "text": "Calendar"
+        },
+        {
+          "type": "p",
+          "text": "Surfaces publishable content by publish date without mixing in non-publishing event assets."
+        },
+        {
+          "type": "li",
+          "text": "Overview: Designing for action, not reporting"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/iZ1t06M6vibP1myT0Ls1HpBzKU.png",
+          "width": "2184",
+          "height": "1396"
+        }
+      ]
+    },
+    {
+      "name": "Design System + AI workflow",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "06"
+        },
+        {
+          "type": "h1",
+          "text": "AI workflow + Design System"
+        },
+        {
+          "type": "image",
+          "src": "https://framerusercontent.com/images/8p0CdQ70E4hZsamYH9St554q0.png",
+          "width": "6110",
+          "height": "2426"
+        },
+        {
+          "type": "p",
+          "text": "I changed AI's role throughout the process: from exploration partner, to implementation agent, to system extraction tool. Once the product and visual direction were approved, Figma became the source of truth."
+        }
+      ]
+    },
+    {
+      "name": "Design System + AI workflow",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "07"
+        },
+        {
+          "type": "h1",
+          "text": "Final Prototype"
+        },
+        {
+          "type": "video",
+          "src": "https://framerusercontent.com/assets/Au41KOpzQuKlEizHIhnGxHsr5Kg.mp4",
+          "poster": "https://framerusercontent.com/images/Q9DW8pp9B1K6chtvlrafKNeBAk.png"
+        }
+      ]
+    },
+    {
+      "name": "Reflection",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "08"
+        },
+        {
+          "type": "h1",
+          "text": "Reflfection"
+        },
+        {
+          "type": "li",
+          "text": "The hardest part wasn't designing individual screens, it was deciding what not to build. Narrowing a broad event-management concept into a content-operations workflow made the relationships between participant data, production status, and publishing much clearer."
+        },
+        {
+          "type": "li",
+          "text": "AI accelerated exploration and implementation, but it also generated more patterns than the product needed. Consolidating those outputs into a deliberate system became an important part of the design work."
+        },
+        {
+          "type": "li",
+          "text": "If I continued the project, I would validate the workflow with event organizers and designers, particularly around source readiness, handoff, and approval workflows."
+        }
+      ]
+    }
+  ]
+}

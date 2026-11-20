@@ -1,0 +1,11 @@
+:root[data-mode="games"]{color-scheme:dark;--paper:#080611;--ink:#f7f5ff;--muted:#b9b5c8;--rule:#302b44;--cyan:#21183c;--yellow:#dff346}
+html[data-mode="games"] .section-number{color:#17131f}
+html[data-mode="games"] .case-outline a[aria-current="location"]{background:#dff34626;color:#dff346}
+html[data-mode="games"] .case-outline a:hover{background:#633bff33;color:#f7f5ff}
+html[data-mode="games"] .case-outline a[aria-current="location"]:hover{background:#dff34626;color:#dff346}
+html[data-mode="games"] .lightbox-close{background:#dff346;border-color:#dff346;color:#17131f}
+html[data-mode="games"] .case-question{background:#633bff26;border-color:#a28aff}
+html[data-mode="games"] .case-image-trigger:focus-visible,html[data-mode="games"] a:focus-visible,html[data-mode="games"] button:focus-visible{outline-color:#b6a3ff}
+
+/* Captions are secondary to case study body copy. */
+html[data-mode="games"] figcaption{color:var(--muted);font-size:15.4px;line-height:1.5;margin-top:8px}

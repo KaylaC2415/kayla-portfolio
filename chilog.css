@@ -1,0 +1,38 @@
+.case-cover>.case-image{margin:0}.case-image figcaption,.chi-caption,.chi-video-grid figcaption{font-size:15.4px;line-height:1.5;color:var(--muted);margin:8px 0 0}.chi-insights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.chi-insights>div,.chi-jobs>div{border:1px solid var(--rule);padding:18px}.case-section .chi-insights h3{font-size:19.8px;line-height:1.35;margin:0 0 10px}.chi-insights p,.chi-jobs p{font-size:16.5px;line-height:1.6;margin:0 0 12px}.chi-jobs{display:grid;grid-template-columns:1fr 1fr;gap:16px}.chi-jobs h4{font-size:20.9px;margin:0 0 4px}.chi-jobs .chi-caption{font-size:14.3px;margin-bottom:16px}.chi-three{grid-template-columns:repeat(3,minmax(0,1fr))}.chi-four{grid-template-columns:repeat(4,minmax(0,1fr))}.chi-phones{margin:24px 0 36px;align-items:start}.chi-phones .case-image-trigger{background:transparent}.chi-phones img{object-fit:contain;height:auto}.chi-comparison .case-image-trigger{height:480px;display:flex;justify-content:center;align-items:flex-start;overflow:hidden}.chi-comparison img{max-height:100%;width:auto;max-width:100%;object-fit:contain}.chi-video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--case-grid-gap);max-width:620px;margin:auto}.chi-video-grid figure{margin:0}.chi-video-grid video{display:block;width:100%;height:auto;aspect-ratio:1350/2770;object-fit:contain;background:transparent;border:0}@media(max-width:720px){.chi-insights,.chi-jobs{grid-template-columns:1fr}.chi-four{grid-template-columns:repeat(2,minmax(0,1fr))}.chi-three{grid-template-columns:repeat(3,minmax(0,1fr))}.chi-comparison .case-image-trigger{height:310px}}
+.case-cover figcaption{display:none}
+
+/* Keep compact findings and aligned phone galleries. */
+#research .case-list li{margin-bottom:8px;line-height:1.55}
+.chi-phones figcaption,.chi-video-grid figcaption{text-align:center}
+.chi-two{grid-template-columns:repeat(2,minmax(0,1fr));width:calc((100% - 32px) / 3 * 2 + 16px);margin-left:auto;margin-right:auto}
+.chi-video-grid video{clip-path:inset(.35% .5% round 14% / 7%)}
+.chi-table-hint{font-size:14.3px;color:var(--muted);margin-bottom:10px!important}
+.chi-table-scroll{max-width:100%;overflow:auto;margin:28px 0 30px;border:1px solid var(--rule);isolation:isolate;overscroll-behavior-x:contain}
+.chi-table-scroll:focus-visible{outline:2px solid #86d3e3;outline-offset:4px}
+.chi-table{width:100%;min-width:760px;border-collapse:separate;border-spacing:0;table-layout:fixed;font-size:14.3px;line-height:1.45;background:var(--paper)}
+.chi-table caption{text-align:left;caption-side:bottom;padding:12px 16px;font-size:14.3px;color:var(--muted)}
+.chi-table th,.chi-table td{padding:14px 12px;border-bottom:1px solid var(--rule);border-right:1px solid var(--rule);vertical-align:middle;overflow-wrap:break-word}
+.chi-table tr>:last-child{border-right:0}.chi-table thead th{text-align:center;background:#e5f0ef;font-weight:700}
+.chi-table thead th:first-child{width:210px;text-align:left}
+.chi-table tbody th[scope="row"]{position:sticky;left:0;z-index:2;background:var(--paper);font-weight:600;text-align:left;box-shadow:1px 0 var(--rule)}
+.chi-table th[scope="row"] span{display:block;font-size:13.2px;font-weight:400;color:var(--muted);margin-top:4px}
+.chi-table td{text-align:center}.chi-table .status-yes{background:#e4f3ec;color:#23634e}.chi-table .status-no{background:#f8e9e6;color:#8b3933}.chi-table .status-partial{background:#f7eedc;color:#795321}
+.chi-table .chi-table-group th{text-align:left;background:#eeeae5;font-size:13.2px;font-weight:700;padding:10px 12px}
+@media(max-width:720px){.chi-two{width:calc((100% - 24px) / 3 * 2 + 12px)}.chi-table{min-width:760px}.chi-table thead th:first-child{width:180px}.chi-table-scroll{margin-top:12px}.chi-table th,.chi-table td{padding:12px}.chi-table th[scope="row"]{font-size:14.3px}}
+
+/* Keep orientation labels visible while comparing columns. */
+.chi-table thead th:first-child{position:sticky;left:0;z-index:3}
+.chi-table tbody th[scope="row"]{box-shadow:none}
+.chi-table .chi-table-group th{padding:0}
+.chi-group-label{display:block;position:sticky;left:0;width:210px;padding:8px 12px;background:#eeeae5}
+.chi-table th,.chi-table td{padding-top:9px;padding-bottom:9px;line-height:1.35}
+.chi-table th[scope="row"] span{margin-top:1px;line-height:1.3}
+@media(max-width:720px){.chi-group-label{width:180px}.chi-table th,.chi-table td{padding-top:8px;padding-bottom:8px}}
+
+@media(max-width:720px){.chi-four{grid-template-columns:repeat(3,minmax(0,1fr))}.chi-four>.case-image:last-child{grid-column:2}}
+
+@media(max-width:720px){.chi-four{grid-template-columns:repeat(2,minmax(0,1fr));width:calc((100% - 24px) / 3 * 2 + 12px);margin-left:auto;margin-right:auto}.chi-four>.case-image:last-child{grid-column:auto}}
+
+/* Lead with a concrete design decision before the process chapters. */
+/* Design highlight shares the article and chapter layout. */
+.chi-timeline-feature .chi-comparison{margin-top:28px}

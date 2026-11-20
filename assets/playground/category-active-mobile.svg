@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="35.103" height="109.015" viewBox="-3 -3 35.103 109.015" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="House" filter="url(#filter0_d_0_9)">
+<path d="M1.10956e-05 12.2369L16.0515 0L32.103 12.2369L32.103 106.015H0L1.10956e-05 12.2369Z" fill="#FF7D65"/>
+<mask id="stroke0_0_9" fill="white">
+<path d="M1.10956e-05 12.2369L16.0515 0L32.103 12.2369L32.103 106.015H0L1.10956e-05 12.2369Z"/>
+</mask>
+<path d="M1.10956e-05 12.2369L16.0515 0L32.103 12.2369L32.103 106.015H0L1.10956e-05 12.2369Z" stroke-width="4" stroke-linejoin="round" stroke="#4E0601" mask="url(#stroke0_0_9)"/>
+</g>
+<defs>
+<filter id="filter0_d_0_9" x="-3" y="-3" width="35.103" height="109.015" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-3" dy="-3"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.329412 0 0 0 0 0.0117647 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_9"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_9" result="shape"/>
+</filter>
+</defs>
+</svg>

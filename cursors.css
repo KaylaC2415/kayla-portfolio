@@ -1,0 +1,8 @@
+@media(hover:hover) and (pointer:fine){
+html{--site-cursor:url("assets/cursors/blue.svg") 5 3,auto}
+html[data-mode="games"]{--site-cursor:url("assets/cursors/pink.svg") 7 7,crosshair}
+html[data-cursor="about"]{--site-cursor:url("assets/cursors/yellow.svg") 5 3,auto}
+html[data-cursor="playground"]{--site-cursor:url("assets/cursors/ice.svg") 5 3,auto}
+html,html body,html body *{cursor:var(--site-cursor)!important}
+html input,html textarea{cursor:text!important}
+}

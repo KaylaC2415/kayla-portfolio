@@ -1,0 +1,959 @@
+{
+  "source": "https://kaylachendesign.framer.website/five-mics-central",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "Five Mics Central",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "A community platform connecting players, cards, decks, and events in one place.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "As Five Mics, a physical trading card game, expanded with new card releases, players gained more ways to build and experiment with their decks, creating a growing need for digital tools and community interaction. I took Five Mics Central from concept to launch, defining its MVP, information architecture, user flows, and interactions before implementing the platform in Plasmic.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "link": "https://central.fivemics.io/",
+          "text": "View Site →",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "link": "https://central.fivemics.io/",
+          "text": "View Site →",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "MY ROLE",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Lead Product Designer",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "TOOLS",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Figma, Plasmic, Lovable, Supabase",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Timeline",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Feb 2026 - Present",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "Header"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "01",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Problem",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Building a Digital Home for a Growing Community",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "As new booster boxes gave players more cards to build and experiment with, the need for digital tools grew alongside the game. With no dedicated Five Mics platform for players to build, share, or connect, Five Mics Central became an opportunity to support deck building and collection management while creating new ways for the community to discover each other, organize events, and grow together.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1209",
+          "src": "https://framerusercontent.com/images/FtG7Yyi6tZUudGm7DAonfSCDg.png?width=2910&height=1209",
+          "type": "img",
+          "width": "2910"
+        }
+      ],
+      "name": "Problem"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "02",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Product Direction",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "I worked with the founder to shape the initial product vision through rapid AI-assisted prototyping, then studied existing TCG and community platforms to understand how deck building, profiles, events, and collections could work together.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Initial Product Vision",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Core Experience",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "• Deck Builder\n• Card Discovery & Collection Edit\n• Player Profiles\n• Community Building",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Competitive & Community",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "• Event Creation\n• Tournament Management\n• Leaderboard\n• Social Discovery",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Engagement",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "• Rewards & Currency\n• Customization\n• Friends & Messaging\n• Social Conntections",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Competitive Research",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "What I looked at:",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "200",
+          "link": "https://melee.gg/",
+          "src": "https://framerusercontent.com/images/lTdU8I83FAuJ1SPWloMQmbD8V1U.png?scale-down-to=512&width=870&height=200",
+          "type": "img",
+          "width": "870"
+        },
+        {
+          "height": "512",
+          "link": "https://dreamborn.ink/zh",
+          "src": "https://framerusercontent.com/images/JEHVkWr51Ij4bDsEEPH8U1epOU.png?width=512&height=512",
+          "type": "img",
+          "width": "512"
+        },
+        {
+          "height": "447",
+          "link": "https://topdeck.gg/",
+          "src": "https://framerusercontent.com/images/Gp9vE8Pny2eiNrAOl2d7IW5E5w.png?width=447&height=447",
+          "type": "img",
+          "width": "447"
+        },
+        {
+          "height": "512",
+          "link": "https://www.bandai-tcg-plus.com/",
+          "src": "https://framerusercontent.com/images/XERu1Oi79yUC3qjDt9XDL9PM8W4.png?width=512&height=512",
+          "type": "img",
+          "width": "512"
+        },
+        {
+          "height": "321",
+          "link": "https://collect.elestrals.com/",
+          "src": "https://framerusercontent.com/images/Q5BVrEzhfJ31RDQaUep2wJ0gAYU.png?scale-down-to=512&width=516&height=321",
+          "type": "img",
+          "width": "516"
+        },
+        {
+          "height": "189",
+          "link": "https://www.pokemon.com/us/play-pokemon",
+          "src": "https://framerusercontent.com/images/36oVyFMLYKRqLgUKrMHc3AUPQg.png?scale-down-to=512&width=592&height=189",
+          "type": "img",
+          "width": "592"
+        },
+        {
+          "height": null,
+          "text": "What I learned:",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "01 — Fragmented Ecosystems",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Players often rely on separate third-party platforms for deck building, events, rankings, and community activity, leaving no single source of truth for the game ecosystem.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "02 — Powerful, but Hard to Use",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Many existing TCG platforms support deep functionality but come with dense interfaces and steep learning curves, creating an opportunity for clearer hierarchy and more approachable interactions.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "03 — Community as Part of the Product",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Connecting decks, profiles, events, and leaderboards creates more opportunities for players to discover each other, share strategies, and stay engaged beyond individual matches.",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "Product Direction"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "03",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Define MVP",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "The initial vision extended beyond what we could realistically build for launch. We focused FMC on its core player experiences while partnering with TopDeck.gg for mature event and tournament tools.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "By keeping event data connected across both platforms, players could manage events through TopDeck.gg while surfacing their activity on FMC. Rewards and other engagement features were deferred for future development.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Initial FMC Scope",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Deck Builder",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Player Profiles",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Collection",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Card / Deck Discovery",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Leaderboard",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Friends & DMs",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Partner Integration",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Event Creation",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Tournament Management",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Score Reporting",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Deferred",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Rewards & Currency",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Customization",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Administrative View",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Color Mode Switch",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "Define"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "04",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "IA & User Flow",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "I mapped the product architecture around a connected player ecosystem, linking collections, decks, profiles, events, and community discovery rather than treating each feature as an isolated tool.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1780",
+          "src": "https://framerusercontent.com/images/CTWZdJ2aghP8COVxsaUCkWAniY.png?scale-down-to=4096&width=5284&height=1780",
+          "type": "img",
+          "width": "5284"
+        },
+        {
+          "height": null,
+          "text": "From Collection to Community",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Collect",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Collection",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Build",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Deck Builder",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Publish",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "My Public Decks",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Engage",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Likes & Discovery",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "IA & User Flow"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "05",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Designing the Core Experience",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "With the product structure in place, I translated the core flows into high-fidelity interfaces, balancing the information density of a TCG platform with clear hierarchy and approachable interactions. The experience was designed around connected player activities — building decks, discovering cards and strategies, developing a player identity, and engaging with the wider community.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "01 - Build",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Create and manage decks",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/d8M9j9P8KyHO8M5Y3ByeqTzpEQo.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Deck Builder",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/iFW3VLBLDF6McSQRj49sPQBHQ.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Filter",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/A0bxZJoL6nf3ZEJFX7xLMyvLHqo.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Deck Builder (List View)",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/PMMrLnMYxVxnu5NVO8QFw8XcJeY.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Save Deck",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "02 - Discover",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Explore card collection, decks, and strategies",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/vbL07p1OmothyZ20UGd0TtikRA.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Collection",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1880",
+          "src": "https://framerusercontent.com/images/0VsXOwnRMOacqURVzP9xVJAhwqo.png?scale-down-to=2048&width=2944&height=1880",
+          "type": "img",
+          "width": "2944"
+        },
+        {
+          "height": null,
+          "text": "Card Inspect",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/adniGQhVI54txf7aO37I8H2L9Hw.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Community Decks Exploration",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "964",
+          "src": "https://framerusercontent.com/images/yJap4nJ8sMIX2pnOvcCBPkYg7Dw.png?width=1459&height=964",
+          "type": "img",
+          "width": "1459"
+        },
+        {
+          "height": null,
+          "text": "Public Deck & Analysis",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "03 - Connect",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Build a player identity",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/v6JY4SSGSphkI9AMkZIUf1YvA.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Player Info & Event Activity",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/L7O5ksATWwvQQ0I2cnzPXv22cs.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Player Public Decks",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Future Exploration — Organized Play",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "I explored a native organized play system spanning event creation, registration, tournament operations, and player reporting. We ultimately deferred building these tools natively and partnered with an existing platform instead, while keeping event activity connected to the Five Mics ecosystem.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/mNGJIkSlMDfEVBYzNNKjLrtU4Zg.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Organizer — Create Event",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/haQoBFprEVSF9WkZYICkVOHWQ.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Player — Discover & Register",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/SitKDbGZQY6wJLWGmA5PmyC7B4.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "Player — Report Scores",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1964",
+          "src": "https://framerusercontent.com/images/DtqLIQa6hKMq4QvkAfCHR9uOL6Q.png?scale-down-to=2048&width=3024&height=1964",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": " Organizer — Manage Matches",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "Design"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "06",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Bringing the Design into Production",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "I implemented the responsive UI in Plasmic and took on front-end work when product needs extended beyond the platform’s native capabilities.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Building Beyond the UI",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "While implementing the Deck Viewer, I used AI-assisted coding to build a dynamic chart that visualizes deck composition at a glance, then integrated it directly into Plasmic.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1924",
+          "src": "https://framerusercontent.com/images/4O4sDtml2LyM8ZZVzGzyFc9nHKo.png?scale-down-to=2048&width=3496&height=1924",
+          "type": "img",
+          "width": "3496"
+        },
+        {
+          "height": null,
+          "text": "RESPONSIVE IMPLEMENTATION",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Desktop + mobile layouts built in Plasmic",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "DECK ANALYSIS",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Card stats and composition at a glance",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "CUSTOM CODE",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "AI-assisted chart embedded directly into the product",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Turning Extra Cards into a Resale Loop",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": "766",
+          "src": "https://framerusercontent.com/images/fApJDRBECCWlzt4HcR03UEba4.png?scale-down-to=1024&width=1822&height=766",
+          "type": "img",
+          "width": "1822"
+        },
+        {
+          "height": null,
+          "text": "While building Collection, I saw an opportunity to turn duplicate cards into a resale loop. I proposed a Sell Cards flow connecting players’ collections to Five Mics’ review process and Shopify storefront.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": "1724",
+          "src": "https://framerusercontent.com/images/ei2u7e9RzjGNDNcSYBcr4fUjH6U.png?scale-down-to=2048&width=3024&height=1724",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": "1724",
+          "src": "https://framerusercontent.com/images/plPaZcjaiBfULBlOlzH8KGra6WA.png?scale-down-to=2048&width=3024&height=1724",
+          "type": "img",
+          "width": "3024"
+        },
+        {
+          "height": null,
+          "text": "I implemented the front-end state logic to keep multiple selected cards editable, validated, and synchronized throughout the submission flow:",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Select",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Choose cards from Collection",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Configure",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Condition + Variant",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Price",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Match with Supabase card data",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Validate",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Ensure every selected card is complete",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Submit",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Send sell request to Five Mics",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Review & List",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Approved cards received → Shopify",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Technical Challenge",
+          "type": "h4",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Keeping collection data, per-card attributes, pricing, validation, and cart state synchronized across multiple selected cards.",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "Production"
+    },
+    {
+      "blocks": [
+        {
+          "height": null,
+          "text": "07",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Evaluation",
+          "type": "h1",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "From Concept to Launch",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Five Mics Central launched as the digital companion to the physical TCG, bringing deck building, collections, player identity, and community discovery into one connected experience. Taking it from concept through implementation taught me to design beyond individual features, balancing product architecture, scope, technical constraints, and opportunities that emerge while building.",
+          "type": "p",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Timeline: 3 months",
+          "type": "h2",
+          "width": null
+        },
+        {
+          "height": null,
+          "text": "Opportunity → Align → Research → Scope → Structure → Design → Build → Launch",
+          "type": "p",
+          "width": null
+        }
+      ],
+      "name": "Evaluation"
+    }
+  ]
+}
