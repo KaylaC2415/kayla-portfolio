@@ -8,10 +8,9 @@
 
 @media(max-width:700px){
   html {
-    min-height: 100lvh;
-    background: var(--room) url('assets/playground/mobile-imgLightModeMobile.png') center top / cover no-repeat;
+    background-color: var(--ink);
   }
-  body { background: transparent; }}
+  body { background-image: url('assets/playground/mobile-imgLightModeMobile.png'); }}
 
 .category[aria-current="location"] .category-art{filter:drop-shadow(3px 3px 0 #540300)}
 @media(max-width:700px){.play-name{display:none}.category[aria-current="location"] .category-art{filter:drop-shadow(3px 3px 0 #540300)}}
