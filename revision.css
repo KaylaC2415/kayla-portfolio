@@ -222,3 +222,30 @@ html:root .dark-scroll,html:root .dark-scroll:hover{pointer-events:none;cursor:d
 
 html[data-mode="product"] #mode-name{color:#f7af27}
 html[data-mode="games"] #mode-name{color:#f46be5}
+
+/* Opening composition: retain comfortable space after the larger type. */
+html:root #mode-name,html:root .dark-scroll{display:none}
+.dark-interactive{width:364px;justify-content:center;padding-left:30px;padding-right:30px}
+.dark-game{width:460px;justify-content:center;padding-left:30px;padding-right:30px}
+.dark-intro .intro-star{left:347px}
+.dark-world-label{left:1px;top:275px;width:176px;height:95px;padding:0;display:flex;align-items:center;justify-content:center}
+@media(max-width:700px){
+ .dark-interactive{width:310px;justify-content:center;padding-left:25px;padding-right:25px}
+ .dark-game{width:383px;justify-content:center;padding-left:25px;padding-right:25px}
+ .dark-intro .intro-star{left:275px!important}
+ .dark-world-label{left:0;top:215px;width:156px;height:75px;padding:0;display:flex;align-items:center;justify-content:center}
+}
+
+/* Align the final row and give the introductions natural sentence wrapping. */
+.dark-intro .intro-chevrons{left:208px}
+.dark-manifesto p{font-size:25px;line-height:1.4;font-weight:600;text-transform:none;white-space:normal;width:100%;align-self:flex-start;padding-top:18px;position:relative;z-index:1}
+.opening-copy p{font-size:25px;line-height:1.4}
+.scroll-sign{top:410px}
+@media(max-width:700px){
+ .dark-intro .intro-chevrons{left:186px!important}
+ .dark-manifesto{height:178px;overflow:visible}
+ .dark-manifesto p{font-size:25px;line-height:1.4;width:100%;padding-top:12px}
+ .dark-manifesto span{top:75px}
+ .scroll-sign{top:395px}
+ html:root .site-footer-index{display:none}
+}
