@@ -258,7 +258,7 @@ html:root #mode-name,html:root .dark-scroll{display:none}
 
  .dark-world-label{width:207px}
  .dark-manifesto{width:364px}
- .dark-manifesto p{width:334px;padding-top:28px}
+ .dark-manifesto p{width:334px;padding-top:28px;font-size:22px}
 }
 
 /* Size the highlight to the title line, including equal side gutters. */
@@ -288,4 +288,76 @@ html:root #mode-name,html:root .dark-scroll{display:none}
   background:
     radial-gradient(circle closest-side, #86d3e3 98%, transparent) left top / .23em .23em no-repeat,
     radial-gradient(circle closest-side, #86d3e3 98%, transparent) right bottom / .23em .23em no-repeat;
+}
+
+@media (max-width: 700px) {
+  html[data-mode] #gallery {
+    overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y pinch-zoom;
+  }
+
+  html[data-mode="product"] .light-world,
+  html[data-mode="games"] .dark-world {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    padding: 0;
+  }
+
+  .light-canvas, .dark-canvas {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
+    height: auto;
+    padding: 72px 20px 48px;
+    transform: none;
+  }
+
+  .light-intro, .dark-intro,
+  .light-project, .dark-project,
+  .light-playground, .dark-playground,
+  .light-closing, .dark-closing {
+    position: relative;
+    inset: auto;
+    margin: 0;
+    transform: none;
+    translate: none;
+  }
+
+  .light-intro, .dark-intro {
+    align-self: center;
+    zoom: var(--product-intro-zoom, 1);
+  }
+
+  .dark-intro {
+    zoom: var(--games-intro-zoom, 1);
+    height: 416px;
+  }
+
+  .light-intro { height: 470px; }
+  .opening-copy p { width: 350px; }
+  .dark-decoration { display: none; }
+  html[data-mode="games"] .game-spotlight { display: none; }
+
+  .light-project, .dark-project,
+  .light-closing, .dark-closing {
+    align-self: stretch;
+    width: 100%;
+  }
+
+  .light-project .project-cover,
+  .dark-project .dark-cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5 / 3;
+    object-fit: cover;
+  }
+
+  .project-plaque, .dark-caption { width: 100%; }
+  .dark-caption-top { flex-wrap: wrap; }
+  .dark-playground { zoom: var(--games-playground-zoom, 1); }
+  .dark-closing { width: 425px; zoom: var(--games-closing-zoom, 1); }
 }
