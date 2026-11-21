@@ -8,7 +8,7 @@ html:root .site-footer-index{right:calc(20px * var(--footer-scale));top:calc(24.
 }
 
 /* Shared Visitor Gallery geometry; each page retains its ink color. */
-html:root :is(.visitor-gallery-button,.play-header>.visitor-button){position:fixed;right:calc(20px * var(--footer-scale));top:calc(20px * var(--footer-scale));display:flex;align-items:center;gap:calc(5px * var(--footer-scale));padding:0;border:0;background:transparent;font:700 15.4px/1.37 Manrope,sans-serif}
+html:root :is(.visitor-gallery-button,.play-header>.visitor-button){position:fixed;right:calc(20px * var(--footer-scale));top:0;height:50px;display:flex;align-items:center;gap:calc(5px * var(--footer-scale));padding:0;border:0;background:transparent;font:700 15.4px/1.37 Manrope,sans-serif}
 html:root .visitor-arrow{width:calc(15px * var(--footer-scale));height:calc(15px * var(--footer-scale))}
 @media(max-width:700px){
  html:root :is(.visitor-gallery-button,.play-header>.visitor-button){right:calc(12px * var(--mobile-scale));top:calc(32px * var(--mobile-scale));gap:calc(5px * var(--mobile-scale));font-size:calc(15.4px * var(--mobile-scale))}
@@ -18,7 +18,7 @@ html:root .visitor-arrow{width:calc(15px * var(--footer-scale));height:calc(15px
 /* Keep navigation labels lighter across exhibition pages. */
 html:root :is(.visitor-gallery-button,.play-header>.visitor-button,.play-header>.back-link){font-weight:500}
 
-html:root .exhibition-nav{position:fixed;z-index:20;right:calc(20px * var(--footer-scale));top:calc(20px * var(--footer-scale));display:flex;align-items:center;gap:24px;pointer-events:auto}
+html:root .exhibition-nav{position:fixed;z-index:20;right:calc(20px * var(--footer-scale));top:0;height:50px;display:flex;align-items:center;gap:24px;pointer-events:auto}
 html:root .exhibition-nav :is(.visitor-gallery-button,.about-me-button){position:static;display:inline-flex;align-items:center;gap:5px;padding:0;border:0;background:none;color:inherit;font:500 15.4px/1.37 Manrope,sans-serif;cursor:pointer;white-space:nowrap}
 html[data-mode="games"] .exhibition-nav{color:#f7f5ff}
 html[data-mode="product"] .exhibition-nav{color:#000}
@@ -27,7 +27,7 @@ html:root .play-header>.return-link{font:500 15.4px/1.37 Manrope,sans-serif}
 .switch-counter{opacity:0;pointer-events:none}
 #about-dialog{background:#fef9f5;color:#20221f;border:1px solid currentColor;padding:40px;max-width:calc(100vw - 32px)}
 #about-dialog::backdrop{background:#000a}.about-close{position:absolute;right:10px;top:10px;border:0;background:transparent;width:30px;height:30px;cursor:pointer}#about-dialog h2{font:700 30.8px/1.2 Manrope,sans-serif}#about-dialog p,#about-dialog a{font:400 17.6px/1.5 Manrope,sans-serif}
-@media(max-width:700px){html:root .exhibition-nav{right:calc(12px * var(--mobile-scale));top:calc(32px * var(--mobile-scale));gap:16px}html:root .exhibition-nav :is(.visitor-gallery-button,.about-me-button){font-size:15.4px}}
+@media(max-width:700px){html:root .exhibition-nav{right:calc(12px * var(--mobile-scale));gap:16px}html:root .exhibition-nav :is(.visitor-gallery-button,.about-me-button){font-size:15.4px}}
 
 @media(max-width:700px){html:root .switch-counter{top:calc(72px * var(--mobile-scale))}}
 
@@ -36,12 +36,12 @@ html:root:is([data-mode="product"],[data-mode="games"]) .exhibition-header .swit
 @media(max-width:700px){html:root:is([data-mode="product"],[data-mode="games"]) .exhibition-header .switch-counter{top:auto;bottom:calc(110px * var(--mobile-scale) + env(safe-area-inset-bottom))}}
 
 /* Shared header baseline and exhibition identity. */
-.header-name{position:fixed;z-index:20;left:calc(20px * var(--footer-scale));top:calc(20px * var(--footer-scale));font:500 15.4px/1.37 Manrope,sans-serif;color:inherit}
+.header-name{position:fixed;z-index:20;left:calc(20px * var(--footer-scale));top:0;height:50px;display:flex;align-items:center;font:500 15.4px/1.37 Manrope,sans-serif;color:inherit}
 html[data-mode="games"] .header-name{color:#f7f5ff}html[data-mode="product"] .header-name{color:#000}
 html:root .play-header .exhibition-nav{pointer-events:auto;color:var(--ink)}
 html:root .play-header .exhibition-nav :is(.visitor-button,.about-me-button){position:static;display:inline-flex;align-items:center;gap:5px;padding:0;border:0;background:none;color:inherit;font:500 15.4px/1.37 Manrope,sans-serif;cursor:pointer;white-space:nowrap}
 @media(min-width:701px){html:root .category-nav{left:50%;right:auto;transform:translateX(-50%);width:max-content}}
-@media(max-width:700px){.header-name{left:calc(12px * var(--mobile-scale));top:calc(32px * var(--mobile-scale))}html:root .category-nav{justify-content:safe center}}
+@media(max-width:700px){.header-name{left:calc(12px * var(--mobile-scale))}html:root .category-nav{justify-content:safe center}}
 
 .header-name{font-weight:700}
 @media(max-width:700px){html:root #mode-name{font-size:15.4px}}
@@ -59,3 +59,9 @@ html:root :is(.visitor-gallery-button,.visitor-button){display:none!important}
 
 /* Match the chapter counter to the current mode label on every viewport. */
 html:root .site-footer-index{font-size:16.5px;line-height:1.37}
+
+/* Keep both Playground header controls on the same row. */
+.play-header .exhibition-nav {
+  position: static;
+  height: auto;
+}
