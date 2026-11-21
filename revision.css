@@ -361,3 +361,13 @@ html:root #mode-name,html:root .dark-scroll{display:none}
   .dark-playground { zoom: var(--games-playground-zoom, 1); }
   .dark-closing { width: 425px; zoom: var(--games-closing-zoom, 1); }
 }
+
+@media (390px < width <= 700px) {
+  .dark-playground {
+    align-self: flex-start;
+  }
+
+  .dark-closing {
+    align-self: flex-end;
+  }
+}

@@ -18,7 +18,19 @@ resizeExhibition();
 let current=0;
 let returnFrame=0,transitionTimer=0;
 function cancelModeReturn(){cancelAnimationFrame(returnFrame);clearTimeout(transitionTimer)}
+const headerBar = document.querySelector('.gallery-header-bar');
+let lastHeaderScrollTop = 0;
+function updateHeaderVisibility() {
+ if (!mobileGallery.matches) return;
+ const top = Math.max(0, Math.min(gallery.scrollTop, gallery.scrollHeight - gallery.clientHeight));
+ if (top <= 8) headerBar.classList.remove('is-hidden');
+ else if (Math.abs(top - lastHeaderScrollTop) < 4) return;
+ else headerBar.classList.toggle('is-hidden', top > lastHeaderScrollTop);
+ lastHeaderScrollTop = top;
+}
 function setMode(mode,writeURL=true,transition=false){
+ headerBar.classList.remove('is-hidden');
+ lastHeaderScrollTop = 0;
  cancelModeReturn();const previousLeft=gallery.scrollLeft;
  const game=mode==='games';root.dataset.mode=game?'games':'product';
  document.querySelector('#mode-name').textContent=game?'Game & Interaction':'Product Design';
@@ -53,7 +65,7 @@ document.querySelector('.light-piece-next').addEventListener('click',()=>move(1)
 gallery.addEventListener('wheel',e=>{if(mobileGallery.matches||e.ctrlKey||e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY))return;const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?gallery.clientWidth:1);if(delta){e.preventDefault();gallery.scrollLeft+=delta}},{passive:false});
 gallery.addEventListener('keydown',e=>{if(e.target!==gallery||mobileGallery.matches)return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();move(e.key==='ArrowRight'?1:-1)}if(e.key==='Home'){e.preventDefault();gallery.scrollTo({left:0})}if(e.key==='End'){e.preventDefault();gallery.scrollTo({left:gallery.scrollWidth})}});
 function updateIndex(){if(mobileGallery.matches){const threshold=gallery.getBoundingClientRect().top+gallery.clientHeight*.4;current=0;stops.forEach((stop,i)=>{if(stop.getBoundingClientRect().top<=threshold)current=i});return}const point=gallery.scrollLeft+gallery.clientWidth*.4;let nearest=0;let distance=Infinity;stops.forEach((stop,i)=>{const d=Math.abs(stopLeft(stop)+stop.getBoundingClientRect().width/2-point);if(d<distance){nearest=i;distance=d}});if(gallery.scrollLeft<20)nearest=0;if(gallery.scrollLeft>=gallery.scrollWidth-gallery.clientWidth-5)nearest=stops.length-1;current=nearest;document.querySelector('#light-piece-index').textContent=`${String(Math.max(1,Math.min(root.dataset.mode==='games'?4:3,current))).padStart(2,'0')} / ${root.dataset.mode==='games'?'04':'03'}`;document.querySelector('#piece-index').textContent=`Piece ${String(current+1).padStart(2,'0')} / 05`;document.querySelector('#prev').disabled=current===0;document.querySelector('#next').disabled=current===stops.length-1}
-let queued=false;gallery.addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(()=>{updateIndex();queued=false})}},{passive:true});addEventListener('resize',()=>{resizeExhibition();updateIndex()});
+let queued=false;gallery.addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(()=>{updateIndex();updateHeaderVisibility();queued=false})}},{passive:true});addEventListener('resize',()=>{resizeExhibition();updateIndex()});
 setMode(new URLSearchParams(location.search).get('mode'),false);
 
 const visitorDialog=document.querySelector('#visitor-dialog');

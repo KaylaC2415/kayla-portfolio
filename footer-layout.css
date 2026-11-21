@@ -65,3 +65,41 @@ html:root .site-footer-index{font-size:16.5px;line-height:1.37}
   position: static;
   height: auto;
 }
+
+@media (max-width: 700px) {
+  html[data-mode="product"] { --gallery-header-bg: #fef9f5; }
+  html[data-mode="games"] { --gallery-header-bg: #05040f; }
+
+  html[data-mode] .gallery-header-bar {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: env(safe-area-inset-top) 20px 0;
+    background: var(--gallery-header-bg);
+    transition: transform 200ms ease;
+  }
+
+  html[data-mode] .gallery-header-bar :is(.header-name, .exhibition-nav) {
+    position: static;
+  }
+
+  html[data-mode] .gallery-header-bar.is-hidden:not(:focus-within) {
+    transform: translateY(-100%);
+    visibility: hidden;
+    transition: transform 200ms ease, visibility 0s 200ms;
+  }
+
+  html[data-mode] #gallery {
+    height: calc(100dvh - 61px * var(--mobile-scale) - env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 700px) and (prefers-reduced-motion: reduce) {
+  html[data-mode] .gallery-header-bar,
+  html[data-mode] .gallery-header-bar.is-hidden:not(:focus-within) {
+    transition: none;
+  }
+}
