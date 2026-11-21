@@ -6,7 +6,12 @@
 .category-heading-text.is-active{opacity:1}
 @media(prefers-reduced-motion:reduce){.category-heading-text{transition:none}}
 
-@media(max-width:700px){body{background-image:url('assets/playground/mobile-imgLightModeMobile.png')}}
+@media(max-width:700px){
+  html {
+    min-height: 100lvh;
+    background: var(--room) url('assets/playground/mobile-imgLightModeMobile.png') center top / cover no-repeat;
+  }
+  body { background: transparent; }}
 
 .category[aria-current="location"] .category-art{filter:drop-shadow(3px 3px 0 #540300)}
 @media(max-width:700px){.play-name{display:none}.category[aria-current="location"] .category-art{filter:drop-shadow(3px 3px 0 #540300)}}
@@ -42,14 +47,20 @@
 .category-mobile-art { display: none; }
 
 @media (max-width: 700px) {
+  :root {
+    --category-nav-top: calc(50px + max(0px, (66px * var(--mobile-scale) - 50px) / 2));
+    --category-nav-height: 47px;
+  }
+
   .category-nav {
+    top: var(--category-nav-top);
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    height: 60px;
+    height: var(--category-nav-height);
   }
 
   .category-nav .category {
-    height: 48px;
+    height: 35px;
   }
 
   .category-nav .category-art {
@@ -89,7 +100,7 @@
 
   .exhibit-scroll {
     position: fixed;
-    inset: calc(66px * var(--mobile-scale) + 60px) 0
+    inset: calc(var(--category-nav-top) + var(--category-nav-height) + 8px) 0
       calc(61px * var(--mobile-scale) + env(safe-area-inset-bottom));
     height: auto;
     overflow-x: hidden;
@@ -122,7 +133,9 @@
 
   .play-work .work-frame {
     width: 100%;
-    height: 325px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    padding: 6px;
     overflow: hidden;
   }
 
@@ -134,5 +147,21 @@
   .play-work .work-caption p {
     font-size: 14px;
     white-space: normal;
+  }
+}
+
+@media (max-width: 700px) {
+  #project-viewer .viewer-info {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: start;
+    row-gap: 12px;
+  }
+
+  #project-viewer #viewer-description {
+    margin-top: 0;
+  }
+
+  #project-viewer #viewer-description:empty {
+    display: none;
   }
 }

@@ -93,7 +93,8 @@ html:root .site-footer-index{font-size:16.5px;line-height:1.37}
   }
 
   html[data-mode] #gallery {
-    height: calc(100dvh - 61px * var(--mobile-scale) - env(safe-area-inset-bottom));
+    /* Let the footer border cover fractional pixel rounding at the seam. */
+    height: calc(100dvh - 61px * var(--mobile-scale) - env(safe-area-inset-bottom) + 1px);
   }
 }
 
@@ -101,5 +102,13 @@ html:root .site-footer-index{font-size:16.5px;line-height:1.37}
   html[data-mode] .gallery-header-bar,
   html[data-mode] .gallery-header-bar.is-hidden:not(:focus-within) {
     transition: none;
+  }
+}
+
+/* Continue the footer color into the mobile browser's bottom inset. */
+@media (max-width: 700px) {
+  html:is([data-mode="product"], [data-mode="games"]) {
+    min-height: 100lvh;
+    background: var(--footer-bg);
   }
 }

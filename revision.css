@@ -336,7 +336,10 @@ html:root #mode-name,html:root .dark-scroll{display:none}
     height: 416px;
   }
 
-  .light-intro { height: 470px; }
+  .light-intro { height: auto; }
+  .light-intro .opening-copy { position: relative; }
+  .light-intro .scroll-sign { display: none; }
+  .light-intro + .light-project { margin-top: -16px; }
   .opening-copy p { width: 350px; }
   .dark-decoration { display: none; }
   html[data-mode="games"] .game-spotlight { display: none; }
